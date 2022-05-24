@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily"
 updates:
-  - package-ecosystem: "mavern" # See documentation for possible values
+  - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
