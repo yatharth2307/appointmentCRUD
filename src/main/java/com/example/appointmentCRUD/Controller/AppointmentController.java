@@ -17,7 +17,6 @@ import com.example.appointmentCRUD.service.AppointmentService;
 
 @RestController
 public class AppointmentController {
-	@Autowired
 	private AppointmentService Repository;
 	@GetMapping("/appointment/{id}")
 	public Appointment getAppointment(@PathVariable long id) {
