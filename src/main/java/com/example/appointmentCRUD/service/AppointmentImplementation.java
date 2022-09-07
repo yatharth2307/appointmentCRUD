@@ -15,7 +15,6 @@ import com.example.appointmentCRUD.Repository.AppointmentRepository;
 public class AppointmentImplementation implements AppointmentService{
 	@Autowired
     private AppointmentRepository Repository;
-	@Override
     public List<Appointment>findAll() {
 
         return (List<Appointment>)Repository.findAll();
