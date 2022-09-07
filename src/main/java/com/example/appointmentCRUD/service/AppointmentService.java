@@ -1,6 +1,6 @@
 package com.example.appointmentCRUD.service;
 
-import java.util.List;
+import java.util.List
 
 import com.example.appointmentCRUD.Entity.Appointment;
 
