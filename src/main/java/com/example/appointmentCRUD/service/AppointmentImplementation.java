@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.example.appointmentCRUD.Entity.Appointment;
 import com.example.appointmentCRUD.Repository.AppointmentRepository;
 
-@Service
+
 public class AppointmentImplementation implements AppointmentService{
 	@Autowired
     private AppointmentRepository Repository;
